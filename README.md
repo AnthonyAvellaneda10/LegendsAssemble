@@ -17,10 +17,10 @@ Immerse yourself in the exciting Marvel universe with LegendsAssemble. This app 
 
 ## Use
 
-1. Clone this repository: `git clone https://github.com/YourUser/MarvelQuest.git`
+1. Clone this repository: `git clone https://github.com/AnthonyAvellaneda10/LegendsAssemble.git`
 
 ```shell
-git clone https://github.com/YourUser/MarvelQuest.git
+git clone https://github.com/AnthonyAvellaneda10/LegendsAssemble.git
 ```
 
 2. Navigate to the project folder: `cd LegendsAssemble`
@@ -41,4 +41,4 @@ Contributions are welcome! If you want to improve LegendsAssemble, open a pull r
 
 ---
 
-Creado con pasión por [Anthony Avellaneda](https://www.linkedin.com/in/AnthonyAvellanedaPaitán/).
+Created with passion for [Anthony Avellaneda](https://www.linkedin.com/in/AnthonyAvellanedaPaitán/).
