@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Details Characters</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="../css/styles.css"> -->
+    <link rel="stylesheet" href="../css/details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- ====== Favicon ====== -->
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <!-- ====== Boxicons ====== -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- ====== Unicons ====== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- ====== Header ====== -->
+    <header class="header" id="header">
+        <!-- ====== Navigation ====== -->
+        <nav class="navbar">
+          <div class="row container d-flex section__border">
+            <div class="logo">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="" />
+            </div>
+  
+            <div class="nav-list d-flex">
+              <a href="">Characters</a>
+              <a href="">Comics</a>
+              <a href="">Series</a>
+              <a href="">Search</a>
+              <div class="close">
+                <i class="bx bx-x"></i>
+              </div>
+              <a class="user-link">Login</a>
+            </div>
+  
+            <div class="icons d-flex">
+              <!-- <div class="icon d-flex"><i class="bx bx-search"></i></div> -->
+              <div class="icon d-flex">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+              </div>
+            </div>
+  
+            <!-- Hamburger -->
+            <div class="hamburger">
+              <i class="bx bx-menu-alt-right"></i>
+            </div>
+          </div>
+  
+        </nav>
+      </header>
+    
+      <section class="section__detail">
+
+        <div class="container__loader">
+          <div class="loader">
+            <div class="item item-1"></div>
+            <div class="item item-2"></div>
+            <div class="item item-3"></div>
+            <div class="item item-4"></div>
+          </div>
+        </div>
+
+        <div class="containers flex" id="containers" style="display: none;">
+        </div>
+      </section>
+
+      <script src="../js/details.js"></script>
+  </body>
+</html>

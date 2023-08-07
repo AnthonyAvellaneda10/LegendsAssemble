@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ====== Favicon ====== -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <!-- ====== Boxicons ====== -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- ====== Unicons ====== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- ====== Swiper CSS ====== -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- ====== Custom CSS ====== -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Marvel App</title>
+  </head>
+  <body>
+    <!-- ====== Header ====== -->
+    <header class="header" id="header">
+      <!-- ====== Navigation ====== -->
+      <nav class="navbar">
+        <div class="row container d-flex section__border">
+          <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="" />
+          </div>
+          <div class="nav-list d-flex">
+            <a href="">Characters</a>
+            <a href="">Comics</a>
+            <a href="">Events</a>
+            <a href="">Contact</a>
+            <div class="close">
+              <i class="bx bx-x"></i>
+            </div>
+            <a class="user-link">Login</a>
+          </div>
+
+          <div class="icons d-flex">
+            <!-- <div class="icon d-flex"><i class="bx bx-search"></i></div> -->
+            <div class="icon d-flex">
+              <!-- Theme change button -->
+              <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+          </div>
+
+          <!-- Hamburger -->
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-right"></i>
+          </div>
+        </div>
+
+        <div class="InputContainer">
+          <input autofocus type="text" name="text" class="input" id="searchText" placeholder="Search">
+          
+          <label for="input" class="labelforsearch">
+        <svg viewBox="0 0 512 512" class="searchIcon"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
+        </label>
+        
+        </div>
+
+      </nav>
+    </header>
+
+    <!-- ====== Categories ====== -->
+    <section class="section categories">
+      <div class="title">
+        <span>Characters</span>
+        <h2>All the characters</h2>
+      </div>
+
+      <div class="container__loader">
+        <div class="loader">
+          <div class="item item-1"></div>
+          <div class="item item-2"></div>
+          <div class="item item-3"></div>
+          <div class="item item-4"></div>
+        </div>
+      </div>
+
+      <div class="products container" id="products">
+      </div>
+
+      <div id="pagination" class="container pagination" style="display: none;">
+        <button id="prevBtn" disabled><p class="btn-prev"><i class="uil uil-angle-double-left arrow-icon"></i> Anterior</p></button>
+        <div id="pageNumbers"></div>
+        <button id="nextBtn"><p class="btn-next">Siguiente <i class="uil uil-angle-double-right arrow-icon"></i></p></button>
+      </div>
+    </section>
+
+    <!-- ====== Footer ====== -->
+    <footer>
+      <div class="row">
+        <div class="col">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" class="logo__marvel" alt="">
+          <p>Immerse yourself in the exciting universe of Marvel! Explore the secrets of your favorite heroes and villains, unleash your imagination and be part of the legend. Adventure awaits you, brave dreamer! 🚀🌟</p>
+        </div>
+        <div class="col">
+          <h3>Office <div class="underline"><span></span></div> </h3>
+          <p><i class="uil uil-map-marker"></i> Lima - Perú</p>
+          <p class="email-id">anthony.avellaneda.p@uni.pe</p>
+          <h4><i class="uil uil-phone"></i> +51 923 946 801</h4>
+        </div>
+        <div class="col">
+          <h3>Links <div class="underline"><span></span></div> </h3>
+          <ul>
+            <li><a href="">Characters</a></li>
+            <li><a href="">Comics</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Newsletter <div class="underline"><span></span></div> </h3>
+          <form>
+            <i class='bx bx-envelope'></i>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit"><i class="uil uil-arrow-right"></i></button>
+          </form>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/anthony.avellanedapaitan" target="_blank"><i class="ri-facebook-circle-fill icon-social facebook" ></i></a>
+            <a href="https://www.linkedin.com/in/AnthonyAvellanedaPaitán/" target="_blank"><i class="uil uil-linkedin icon-social linkedin"></i></a>
+            <a href="https://twitter.com/TomStark08" target="_blank"><i class="uil uil-twitter icon-social twitter"></i></a>
+            <a href="https://github.com/AnthonyAvellaneda10" target="_blank"><i class="uil uil-github icon-social github"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr>
+    <p class="copyright">© LegendsAssemble 2023 | Developed by Anthony Avellaneda Paitán</p>
+    </footer>
+    
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!-- ====== SwiperJs ====== -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- ====== Custom Script ====== -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
