@@ -1,6 +1,8 @@
-# LegendsAssemble
+# LegendsAssemble 🦸🏻‍♂️
 
-Welcome to **LegendsAssemble** 🌟
+## [View Live Demo 👀](https://legends-assemble.netlify.app/)
+
+Welcome to **LegendsAssemble** 🦸🏻‍♂️🌟
 
 Immerse yourself in the exciting Marvel universe with LegendsAssemble. This app allows you to explore and discover detailed information about your favorite Marvel characters, events, and comics.
 
