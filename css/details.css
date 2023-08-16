@@ -841,6 +841,13 @@ img {
       flex-direction: column;
     }
   }
+
+  @media only screen and (max-width:520px) {
+    .containers {
+      box-shadow: none;
+    }
+  }
+
   
   @media only screen and (max-width:511px) {
     .container {
@@ -892,4 +899,11 @@ img {
       margin-right: auto;
     }
   }
+
+  @media only screen and (max-width:410px) {
+    .btn-back {
+      width: 40%;
+    }
+  }
+
   

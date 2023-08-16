@@ -12,8 +12,13 @@ Immerse yourself in the exciting Marvel universe with LegendsAssemble. This app 
 
 ## Screenshots
 
-![Screenshot 1](https://i.blogs.es/94f9a8/infinity-war/840_560.jpeg)
-![Screenshot 2](https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2022/07/marvels-avengers-2750719.jpg?tf=3840x)
+### 1. Mobile view 📱
+
+![Screenshot 1](./images/preview_1.png)
+
+### 2. Desktop view 🖥️
+
+![Screenshot 2](./images/preview_2.png)
 
 ## Use
 

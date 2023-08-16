@@ -125,10 +125,10 @@ function dataNotFound (searchText) {
 // Función para manejar el evento de búsqueda al escribir en el campo
 // Función para manejar el evento de búsqueda al escribir en el campo
 function handleSearchInput() {
-  const searchText = searchTextElement.value.trim();
+  const searchText = searchTextElement.value;
   const newUrl = new URL(window.location.href);
-  if (searchText) {
-    newUrl.searchParams.set('s', searchText);
+  if (searchText.trim() !== "") {
+    newUrl.searchParams.set('s', searchText.trim());
   } else {
     newUrl.searchParams.delete('s'); // Eliminar el parámetro si el campo de búsqueda está vacío
   }
